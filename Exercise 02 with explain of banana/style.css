@@ -1,0 +1,103 @@
+/* tabs to accordion start*/
+.new-card-body {
+  border: 3px solid #427fad;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 1px 5px 10px;
+}
+.all-tab-img img {
+  padding-bottom: 20px;
+}
+.all-tab-img img:nth-last-child(2) {
+  padding-bottom: 0;
+}
+.ourwork-tab-wrap {
+  padding: 50px 0px;
+  position: relative;
+}
+.ourwork-tab-wrap .nav-tabs {
+  display: none;
+  border-bottom: none;
+}
+.ourwork-tab-wrap .nav-tabs .nav-item {
+  background: #427fad;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.ourwork-tab-wrap .nav-tabs .nav-link {
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  color: #fff;
+}
+.ourwork-tab-wrap .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background: #54bbca;
+  color: #fff;
+}
+.col-md-12 {
+  text-align: justify;
+}
+@media (min-width: 768px) {
+  .ourwork-tab-wrap .nav-tabs {
+    display: flex;
+  }
+
+  .ourwork-tab-wrap .card {
+    border: none;
+  }
+
+  .ourwork-tab-wrap .card .card-header {
+    display: none;
+  }
+
+  .ourwork-tab-wrap .card .collapse {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .new-card-body {
+    border: 3px solid #427fad;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 5px 10px;
+  }
+  .ourwork-tab-wrap .tab-content > .tab-pane {
+    display: block !important;
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+
+  .ourwork-tab-wrap .card-header {
+    background: #427fad;
+    color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .ourwork-tab-wrap .card-header h5 a {
+    background: #427fad;
+    color: #fff;
+    border-bottom: none;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+  }
+  .ourwork-tab-wrap .card-header h5 a i {
+    float: right;
+    padding-top: 5px;
+  }
+  .ourwork-tab-wrap .card-body {
+    border: 1px solid #427fad;
+  }
+  .ourwork-tab-wrap .card-header h5 a:hover {
+    color: #fff;
+  }
+}
+/* tabs to accordion end*/
+
+/* explain about banana start */
+
+.banana-explain {
+  margin: 50px;
+  text-align: justify;
+}
+
+/* expalin about banana end */
